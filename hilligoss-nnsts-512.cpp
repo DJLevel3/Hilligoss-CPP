@@ -70,7 +70,7 @@ void readImage(std::string inputFileName)
     if (debug) printf("DEBUG: Inside readImage..\n");
 
     inputFile = std::ifstream(inputFileName.c_str(), std::ios_base::binary);
-    std::vector<unsigned char> inputBuffer(std::istreambuf_iterator<char>(inputFile), {});
+    std::vector<unsigned char> inputBuffer((std::istreambuf_iterator<char>(inputFile)), std::istreambuf_iterator<char>());
 
     int iter = 0;
     for (i = 0; i < 3; i++) {
