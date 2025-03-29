@@ -161,12 +161,6 @@ void showPreview(void)
 
 void reducePixels(void)
 {
-    struct timespec tv;
-    int probabilityCurve = 0;
-    int diceRoll = 0;
-    if (!timespec_get(&tv, TIME_UTC)) return;
-    srand(tv.tv_sec ^ tv.tv_nsec);
-
     if (pixelCount <= targetCount) return;
 
     while (pixelCount > targetCount && removalAttempts < 1000000)
