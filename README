@@ -1,0 +1,14 @@
+
+Make sure ffmpeg is installed.
+
+To compile:
+
+gcc -O3 hilligoss-nnsts-512.c -o hilligoss-nnsts-512 -lm
+
+To convert videos to vector audio suitable for playback on an oscilloscope:
+
+./processall galleria.mp4
+
+..enjoy!
+
+
