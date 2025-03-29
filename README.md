@@ -2,7 +2,7 @@
 
 To compile on Linux or MacOS:
 
-`gcc -O3 hilligoss-nnsts-512.cpp -o hilligoss-nnsts-512 -lm`
+`gcc -O3 hilligoss-nnsts-512.cpp -o hilligoss-nnsts-512 -lm -lstdc++`
 
 
 To compile on Windows (in a Visual Studio 2022 Developer PowerShell window):
