@@ -1,14 +1,15 @@
+## Make sure ffmpeg is installed!
 
-Make sure ffmpeg is installed.
+To compile on Linux or MacOS:
+`gcc -O3 hilligoss-nnsts-512.cpp -o hilligoss-nnsts-512 -lm`
 
-To compile:
+To compile on Windows (in a Visual Studio 2022 Developer PowerShell window):
+`cl /EHsc hilligoss-nnsts-512.cpp`
 
-gcc -O3 hilligoss-nnsts-512.c -o hilligoss-nnsts-512 -lm
+To run on Linux or MacOS (requires PowerShell 7 or greater!):
+`./processall galleria.mp4`
 
-To convert videos to vector audio suitable for playback on an oscilloscope:
+To run on Windows:
+`.\process-video-win.ps1 galleria.mp4`
 
-./processall galleria.mp4
-
-..enjoy!
-
-
+Enjoy!
