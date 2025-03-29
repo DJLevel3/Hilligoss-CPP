@@ -1,13 +1,8 @@
 ## Make sure ffmpeg is installed!
 
-To compile on Linux or MacOS:
+To compile on Windows (via MinGW x64), Linux or MacOS:
 
 `gcc -O3 hilligoss-nnsts-512.cpp -o hilligoss-nnsts-512 -lm -lstdc++`
-
-
-To compile on Windows (in a Visual Studio 2022 Developer PowerShell window):
-
-`cl /EHsc hilligoss-nnsts-512.cpp`
 
 
 To run on Linux or MacOS (make sure process.sh and processall.sh have the executable bit set with `chmod +x ./*.sh`):
