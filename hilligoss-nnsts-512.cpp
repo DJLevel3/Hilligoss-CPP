@@ -19,6 +19,7 @@
 #include <float.h>
 #include <limits.h>
 #include <string>
+#include <cstring>
 #include <fstream>
 #include <vector>
 #include <time.h>
