@@ -10,12 +10,12 @@ To compile on Windows (in a Visual Studio 2022 Developer PowerShell window):
 `cl /EHsc hilligoss-nnsts-512.cpp`
 
 
-To run on Linux or MacOS (requires PowerShell 7 or greater!):
+To run on Linux or MacOS:
 
 `./processall galleria.mp4`
 
 
-To run on Windows:
+To run on Windows (requires PowerShell 7 or greater!):
 
 `.\process-video-win.ps1 galleria.mp4`
 
