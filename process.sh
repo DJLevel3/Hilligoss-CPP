@@ -10,7 +10,7 @@ COLS=$((COLS - 2))
 
 ROWS=$((ROWS -9 ))
 
-./hilligoss-nnsts-512 -f "$1.pgm" -c 2000 -b30 -w255 -x$COLS -y$ROWS -j1600
+./hilligoss-nnsts-512 -f "$1.pgm" -c 2000 -b30 -w255 -x$COLS -y$ROWS -j1600 -s
 
 # 48000 Hz / 60 FPS = 800 vectors per frame
 # 48000 Hz / 24 FPS = 2000 vectors per frame
